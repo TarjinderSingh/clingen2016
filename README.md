@@ -144,6 +144,8 @@ For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 
 4. For the first missense variant in the gene, find the allele frequency in Non-Finnish Europeans 
 
+5. Identify any exons not well-covered by the exome capture technology. 
+
 ## Ensembl VEP for annotating large numbers of variants
 
 - we can use the Ensembl VEP tool to annotate a large number of variants (for example, all variants in a single patient)
@@ -180,7 +182,7 @@ Answer the following questions:
 
 ## Things to be aware of
 
-- ExAC is not a collection of phenotypically healthy individuals and includes individuals with schizophrenia, inflammatory bowel disease, diabetes etc. (see [here]() for more information)
+- ExAC is not a collection of phenotypically healthy individuals and includes individuals with schizophrenia, inflammatory bowel disease, diabetes etc. (see [here](http://exac.broadinstitute.org/about) for more information)
     - for rare or severe developmental disorders, this should be less of an issue
 
 - some regions without genetic variants are simply not well covered in earlier exome captures, so note the coverage!
@@ -189,7 +191,7 @@ Answer the following questions:
 
 ## More information
 
-- [About page on the ExAC website](http://exac.broadinstitute.org/about)
+- [**About** ExAC](http://exac.broadinstitute.org/about)
 
 - [Download page for the raw ExAC data](http://exac.broadinstitute.org/downloads)
 
