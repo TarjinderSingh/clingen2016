@@ -160,17 +160,17 @@ For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 
 2. Paste the following into "Either paste data:":
 
->12 49416554 . G GA . . .  
->18 53070914 . G A . . .  
->22 36142530 . AAGCGGCTGC A . . . 
+    >12 49416554 . G GA . . .  
+    >18 53070914 . G A . . .  
+    >22 36142530 . AAGCGGCTGC A . . . 
 
-![ensembl_input](figures/ensembl_input.png "Ensembl input")
+    ![ensembl_input](figures/ensembl_input.png "Ensembl input")
 
-Alternatively, you can upload a VCF to the website. 
+    Alternatively, you can upload a VCF to the website. 
 
 3. Under **Identifiers and frequency data**, go to **Frequency data for co-located variants**, and select **ExAC allele frequencies**
 
-![select_exac](figures/select_frequency_annotation.png "Select ExAC")
+    ![select_exac](figures/select_frequency_annotation.png "Select ExAC")
 
 4. Click Run and wait. Click view results. 
 
