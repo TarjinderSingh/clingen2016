@@ -132,7 +132,7 @@ Bottom: Read-level data, for a low-level evaluation of quality
     - there are only 4 LoF variants in >60,000 individuals
     - highly constrained gene (pLI = 1)
 
-## Demo
+### Demo
 
 For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 
@@ -148,13 +148,13 @@ For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 
 ## Ensembl VEP for annotating large numbers of variants
 
-- we can use the Ensembl VEP tool to annotate a large number of variants (for example, all variants in a single patient)
+- we can use the Ens`embl VEP tool to annotate a large number of variants (for example, all variants in a single patient)
 
 - can use a number of input formats, but the most common is the VCF format
 
-## [http://www.ensembl.org/common/Tools/VEP](http://www.ensembl.org/common/Tools/VEP)
+### [http://www.ensembl.org/common/Tools/VEP](http://www.ensembl.org/common/Tools/VEP)
 
-## Demo
+### Demo
 
 1. For variants encoded in GRCh37, [go here](http://grch37.ensembl.org/Homo_sapiens/Tools/VEP)
 
