@@ -71,22 +71,53 @@ We can use:
     - variant positions (22-46615880)
     - region of interest (22:46615715-46615880)
 
+![input_box](figures/input_box.png "Input box")
+
 - in the gene, transcript, and region view, we see:
-    - Top left: gene name, number of variants, and link to other online resources and references
-    - Top right: observed and expected number of variants of each functional class, and the pLI score
-    - Middle: Exonic coverage for gene or transcript (proxy for regional quality)
-    - Below: Table of all variants observed in this gene
+    
+Top left: gene name, number of variants, and link to other online resources and references
+
+![gene name](figures/gene_name.png "Gene name")
+
+Top right: observed and expected number of variants of each functional class, and the pLI score
+
+![constraint](figures/constraint_score.png "Constraint")
+
+Middle: Exonic coverage for gene or transcript (proxy for regional quality)
+
+![coverage](figures/coverage.png "Coverage")
+
+Below: Table of all variants observed in this gene
+
+![variants](figures/variant_table.png "Variants")
 
 - for each variant, the chromosome, position, consequence, annotation, allele frequency is provided 
 
 - can filter by consequence (Missense + LoF, or LoF)
 
+![filter](figures/filter_csq.png "Filter")
+
 - in the variant view, we see:
-    - Top left: ID, frequency, and link to other online resources
-    - Top right: quality metrics
-    - Middle left: Functional consequence, and link to gene and transcript
-    - Middle right: Frequencies in different global populations
-    - Bottom: Read-level data, for a low-level evaluation of quality
+    
+Top left: ID, frequency, and link to other online resources
+
+![variant](figures/variant_info.png "Variant")
+
+Top right: quality metrics
+
+![gq](figures/genotype_quality.png "GQ")
+
+Middle left: Functional consequence, and link to gene and transcript
+
+![annotation](figures/annotation.png "Annotation")
+
+Middle right: Frequencies in different global populations
+
+![frequencies](figures/global_frequencies.png "Frequencies")
+
+Bottom: Read-level data, for a low-level evaluation of quality
+
+![reads](figures/read_data.png "Reads")
 
 ### Quick examples
 
@@ -128,12 +159,16 @@ For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 2. Paste the following into "Either paste data:":
 
 >12 49416554 . G GA . . .  
->18 53070914 . G A . . . 
+>18 53070914 . G A . . .  
 >22 36142530 . AAGCGGCTGC A . . . 
+
+![ensembl_input](figures/ensembl_input.png "Ensembl input")
 
 Alternatively, you can upload a VCF to the website. 
 
 3. Under **Identifiers and frequency data**, go to **Frequency data for co-located variants**, and select **ExAC allele frequencies**
+
+![select_exac](figures/select_frequency_annotation.png "Select ExAC")
 
 4. Click Run and wait. Click view results. 
 
@@ -160,5 +195,5 @@ Answer the following questions:
 
 - [ExAC manuscript preprint](http://biorxiv.org/content/early/2015/10/30/030338)
 
-- [Quick blog post on how to use ExAC](http://wp.sanger.ac.uk/barrettgroup/2015/03/20/exac-its-big-and-easy-to-use/)
+- [Short blog post on how to use ExAC](http://wp.sanger.ac.uk/barrettgroup/2015/03/20/exac-its-big-and-easy-to-use/)
 
