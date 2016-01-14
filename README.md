@@ -4,7 +4,7 @@
 
 Wellcome Trust Genome Campus, January 2016
 
-[Tarjinder Singh](ts14@sanger.ac.uk), [Jeffrey C. Barrett](Jeffrey C. Barrett)
+[Tarjinder Singh](mailto:ts14@sanger.ac.uk), Jeffrey C. Barrett
 
 ## Session description
 
@@ -33,7 +33,13 @@ We can use:
 
 - ExAC combines all available exomes from global sequencing projects
 
+![summary](figures/exac_summary.png "Summary")
+
+![acknowledgements](figures/acknowledgements.png "Acknowledgements")
+
 - describes the functional consequence and allele frequency of each observed coding variant in **60,706** individuals (as of January 2016, v0.3)
+
+- over 10 million variants: one variant every 6 base pairs; most are rare and novel
 
 #### [http://exac.broadinstitute.org/](http://exac.broadinstitute.org/)
 
@@ -75,19 +81,19 @@ We can use:
 
 - in the gene, transcript, and region view, we see:
     
-Top left: gene name, number of variants, and link to other online resources and references
+**Top left**: gene name, number of variants, and link to other online resources and references
 
 ![gene name](figures/gene_name.png "Gene name")
 
-Top right: observed and expected number of variants of each functional class, and the pLI score
+**Top right**: observed and expected number of variants of each functional class, and the pLI score
 
 ![constraint](figures/constraint_score.png "Constraint")
 
-Middle: Exonic coverage for gene or transcript (proxy for regional quality)
+**Middle**: Exonic coverage for gene or transcript (proxy for regional quality)
 
 ![coverage](figures/coverage.png "Coverage")
 
-Below: Table of all variants observed in this gene
+**Below**: Table of all variants observed in this gene
 
 ![variants](figures/variant_table.png "Variants")
 
@@ -99,27 +105,27 @@ Below: Table of all variants observed in this gene
 
 - in the variant view, we see:
     
-Top left: ID, frequency, and link to other online resources
+**Top left**: ID, frequency, and link to other online resources
 
 ![variant](figures/variant_info.png "Variant")
 
-Top right: quality metrics
+**Top right**: quality metrics
 
 ![gq](figures/genotype_quality.png "GQ")
 
-Middle left: Functional consequence, and link to gene and transcript
+**Middle left**: Functional consequence, and link to gene and transcript
 
 ![annotation](figures/annotation.png "Annotation")
 
-Middle right: Frequencies in different global populations
+**Middle right**: Frequencies in different global populations
 
 ![frequencies](figures/global_frequencies.png "Frequencies")
 
-Bottom: Read-level data, for a low-level evaluation of quality
+**Bottom**: Read-level data, for a low-level evaluation of quality
 
 ![reads](figures/read_data.png "Reads")
 
-### Quick examples
+#### Quick examples
 
 - [rs334](http://exac.broadinstitute.org/variant/11-5248232-T-A), the causal variant in sickle cell anemia
     - note the differences in allele frequency between populations
@@ -132,7 +138,7 @@ Bottom: Read-level data, for a low-level evaluation of quality
     - there are only 4 LoF variants in >60,000 individuals
     - highly constrained gene (pLI = 1)
 
-### Demo
+#### Demo
 
 For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 
@@ -144,17 +150,17 @@ For the following genes (_TP53_, _ARID1B_, _NOD2_, _NRXN1_):
 
 4. For the first missense variant in the gene, find the allele frequency in Non-Finnish Europeans 
 
-5. Identify any exons not well-covered by the exome capture technology. 
+5. Identify any exons not well-covered by the exome capture technology
 
 ## Ensembl VEP for annotating large numbers of variants
 
-- we can use the Ens`embl VEP tool to annotate a large number of variants (for example, all variants in a single patient)
+- we can use the Ensembl VEP tool to annotate a large number of variants (for example, all variants in a single patient)
 
 - can use a number of input formats, but the most common is the VCF format
 
 ### [http://www.ensembl.org/common/Tools/VEP](http://www.ensembl.org/common/Tools/VEP)
 
-### Demo
+#### Demo
 
 1. For variants encoded in GRCh37, [go here](http://grch37.ensembl.org/Homo_sapiens/Tools/VEP)
 
@@ -191,7 +197,7 @@ Answer the following questions:
 
 ## More information
 
-- [**About** ExAC](http://exac.broadinstitute.org/about)
+- [About ExAC](http://exac.broadinstitute.org/about)
 
 - [Download page for the raw ExAC data](http://exac.broadinstitute.org/downloads)
 
